@@ -14,3 +14,4 @@ ADD "https://github.com/documize/community/releases/download/v${DOCUMIZE_VERSION
 RUN chmod +x documize
 
 CMD ["sh", "-c", "./documize"]
+EXPOSE $DOCUMIZEPORT
