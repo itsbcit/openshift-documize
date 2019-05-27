@@ -1,7 +1,7 @@
 FROM bcit/alpine
 
 LABEL maintainer="chriswood.ca@gmail.com"
-ENV DOCUMIZE_VERSION 2.1.1
+ENV DOCUMIZE_VERSION 2.5.1
 
 ENV DOCUMIZEDBTYPE "mysql"
 ENV DOCUMIZESALT "0123456789abcdefg"
